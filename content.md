@@ -3,9 +3,9 @@
 Fill this in as you go — then copy the real text into your HTML pages.
 
 ## Basics
-- [ ] Full club name:
+- [✅] Full club name:
 - [ ] Tagline / one-line description:
-- [ ] Location / venue:
+- [✅] Location / venue:
 - [ ] Contact email:
 - [ ] Phone (optional):
 - [ ] Social links (Facebook, Instagram, etc.):
