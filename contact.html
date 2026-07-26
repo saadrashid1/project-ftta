@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Fredericton Table Tennis Academy — book a trial session or ask about membership."
+    />
+    <title>Contact — Fredericton Table Tennis Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-scene" aria-hidden="true">
+      <div class="orb orb--green"></div>
+      <div class="orb orb--orange"></div>
+      <div class="orb orb--teal"></div>
+      <div class="ball-deco ball-deco--1"></div>
+      <div class="ball-deco ball-deco--3"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner glass">
+        <a class="logo" href="index.html">
+          <span class="logo-icon" aria-hidden="true"></span>
+          FTTA
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="programs.html">Programs</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-inner glass-strong">
+          <p class="eyebrow">
+            <span class="eyebrow-dot" aria-hidden="true"></span>
+            Get in touch
+          </p>
+          <h1>Contact Us</h1>
+          <p>
+            Book a trial session, ask about membership, or just say hello.
+            We'll get back to you within 24 hours.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="container contact-grid">
+          <aside class="contact-info glass">
+            <h2>Club Info</h2>
+
+            <div class="info-item">
+              <div class="info-icon" aria-hidden="true">📍</div>
+              <div>
+                <strong>Location</strong>
+                <p>Fredericton, New Brunswick</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon" aria-hidden="true">✉️</div>
+              <div>
+                <strong>Email</strong>
+                <p><a href="mailto:support@ftta.ca">support@ftta.ca</a></p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon" aria-hidden="true">🕐</div>
+              <div>
+                <strong>Hours</strong>
+                <p>Mon–Sat, 9 AM – 9 PM</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon" aria-hidden="true">🏓</div>
+              <div>
+                <strong>Trial sessions</strong>
+                <p>Free for first-time visitors</p>
+              </div>
+            </div>
+          </aside>
+
+          <div class="contact-form-wrap glass-strong">
+            <h2>Send a message</h2>
+            <form action="#" method="post">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="program">Interested in</label>
+                <select id="program" name="program">
+                  <option value="">Select a program</option>
+                  <option value="beginners">Beginners</option>
+                  <option value="juniors">Juniors</option>
+                  <option value="competitive">Adults &amp; Competitive</option>
+                  <option value="trial">Free trial session</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell us about your experience level and what you're looking for..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Send message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="logo-icon" aria-hidden="true"></span>
+          <strong>Fredericton Table Tennis Academy</strong>
+        </div>
+        <div class="footer-links">
+          <a href="programs.html">Programs</a>
+          <a href="contact.html">Contact</a>
+          <a href="mailto:support@ftta.ca">support@ftta.ca</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Fredericton Table Tennis Academy</p>
+      </div>
+    </footer>
+  </body>
+</html>
